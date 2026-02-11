@@ -1,0 +1,29 @@
+โหลด
+https://www.python.org/downloads/
+
+Cmd  ฝั้งBackend
+ติดตั้ง
+python -m venv venv
+ติดตั้ง Libraries
+pip install django djangorestframework django-cors-headers
+ถ้าไม่ได้ให้ใส่นี้แทน
+python -m pip install django djangorestframework django-cors-headers
+
+
+จอที่ 1 (Django): python manage.py runserver (ทำหน้าที่เป็นตัวกลางและเก็บข้อมูล)
+ กรณีใช่อันบนไม่ได้   py manage.py runserver
+
+Cmd  ฝั้งFrontend
+ลบnode_modulesแล้วค่อย npm i
+
+
+จอที่ 2 (Vue Frontend): npm run dev (หน้าตาเว็บที่คุณกดเล่น)
+
+
+
+เข้าDatabase
+http://127.0.0.1:8000/admin/
+
+รหัสเข้าDatabase
+admin@gmail.com
+12345

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- ส่วนตั้งค่าพื้นฐาน --- */
+:root {
+  font-family: 'Kanit', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* --- ล้างค่า Default ของ Body --- */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: block; /* สำคัญ: แก้จาก flex เป็น block เพื่อให้เต็มจอ */
+  background-color: #f8fafc; /* สีพื้นหลังเริ่มต้น */
+}
+
+/* --- ล้างค่า Default ของ #app (ตัวการสำคัญ) --- */
+#app {
+  max-width: 100% !important; /* ยกเลิกการจำกัดความกว้าง */
+  margin: 0 !important;       /* ยกเลิกการจัดกึ่งกลางแบบกล่อง */
+  padding: 0 !important;      /* ยกเลิกขอบขาวรอบๆ */
+  width: 100%;
+  display: block;
+  text-align: left;           /* ยกเลิกการจัดกลางตัวหนังสือ */
+}
